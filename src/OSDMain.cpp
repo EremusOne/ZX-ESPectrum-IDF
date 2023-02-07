@@ -437,7 +437,7 @@ void OSD::do_OSD(fabgl::VirtualKey KeytoESP) {
         }
         else if (opt == 5) {
             // Preliminar: let's hook here for capturing to BMP
-            CaptureBMP::capture("/data/CaptureBMP.raw");
+            CaptureBMP::capture("/CaptureBMP.bmp");
             // Help
             drawOSD();
             osdAt(2, 0);
